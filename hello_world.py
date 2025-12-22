@@ -29,7 +29,7 @@ def main():
 
     ## ADD CODE HERE
 
-    print(f"Hello {user_name} I heard that you were good at {user_hobby}")
+    print(f"Hello {user_name} I heard that you were good at {user_hobby} !")
 
 if __name__ == "__main__":
     main()
