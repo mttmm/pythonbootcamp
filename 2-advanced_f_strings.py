@@ -18,7 +18,7 @@ def main():
     # YOUR CODE HERE:
     # Print a story like: "Once upon a time, [name] went to [place].
     # They found a [adjective] [object]. It was the best [object] ever!"
-    print(f"Once upon a time {name} and found an {adjective} {object} and it took him to {place}")
+    print(f"Once upon a time {name} found an {adjective} {object} and it took them to {place}")
 
 if __name__ == "__main__":
     main()
