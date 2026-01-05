@@ -21,21 +21,30 @@ def main():
         print("Password correct! You entered the First Room.")
 
         # DOOR 2 (This only happens if DOOR 1 is opened!)
-        # YOUR CODE HERE: Ask for a secret_handshake.
-        # If it is "high-five", go to Door 3.
+        # YOUR CODE HERE: Ask for a secret_handshake. 
+        handshake = input("Enter the secret handshake: ")
+        if handshake == "secret":
+            print("handshake correct! You entered the second room.")
+            # If it is "high-five", go to Door 3.
+        
+        # DOOR 3 (This only happens if DOOR 2 is opened!)
+           
+           
+            color = input("Enter the secret color:")
+            if color == "off beige  ":
+                print("You have access to the valut now")
+                # YOUR CODE HERE: Ask for a favorite_color.
+                # If it is "blue", print "ACCESS GRANTED TO THE VAULT!"
 
-            # DOOR 3 (This only happens if DOOR 2 is opened!)
-            # YOUR CODE HERE: Ask for a favorite_color.
-            # If it is "blue", print "ACCESS GRANTED TO THE VAULT!"
-
-            # YOUR CODE HERE: Add an 'else' for Door 3
-            # (e.g., print "Wrong color! Alarm sounding!")
-
-        # YOUR CODE HERE: Add an 'else' for Door 2
-        # (e.g., print "Wrong handshake! Guards are coming!")
-
+                # YOUR CODE HERE: Add an 'else' for Door 3
+                # (e.g., print "Wrong color! Alarm sounding!")
+            else:
+                print("Wrong try again")
+        else: 
+         print("Wrong try again")
     else:
-        print("Wrong password. Access Denied at the front gate.")
+        print("Wrong try again")
 
 if __name__ == "__main__":
     main()
+        
